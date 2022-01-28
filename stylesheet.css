@@ -1,0 +1,146 @@
+body {
+    margin: 0;
+    font-family: 'Lucida Grande';
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .project {
+    padding: 120px 0 100px 0;
+    background-color: #e41616;
+    color: white;
+    text-align: center;
+  }
+  .about-me {
+    padding: 180px 0 100px 0;
+    background-image: url(https://cdn.pixabay.com/photo/2015/07/17/22/43/student-849825_960_720.jpg);
+    background-size: cover;
+    color: rgb(0, 0, 0); 
+  }
+  
+  .skills {
+    padding: 70px 0 100px 0;
+    background-color: #0379ff;
+    color: white; 
+  }
+  
+  .skill {
+    float: left;
+    width: 16%;
+  }
+  
+  .about-me h1 {
+    opacity: 0.7;
+    font-family:'Times New Roman';
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .about-me p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+    font-size: 20px;
+    color: #0026ff;
+  }
+  
+  .btn-wrapper {
+    margin: 20px 0;
+  }
+  
+  .btn-wrapper p {
+    margin: 10px 0;
+  }
+  
+  
+  .facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+  .twitter {
+    background-color: #55acee;
+    margin-right: 10px;
+  }
+  
+  .linkedin {
+    background-color: #0e76a8;
+    margin-right: 10px;
+  }
+  
+  .instagram {
+    background-color: #C13584;
+    margin-right: 10px;
+  }
+  
+  .github {
+    background-color: black;
+    margin-right: 10px;
+  }
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    /* Change the position property to fixed, and top property to 0 */
+    position: fixed;
+    top: 0;
+    /* Change the z-index property to 10 */
+    z-index: 10;
+  }
+  
+  .header-element {
+    float: left;
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+  }
+  
+  .header-element:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .header-element a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+  }
+  
+  .message {
+    padding: 15px 40px;
+    background-color: #19d665;
+    cursor: pointer;
+    box-shadow: 0 7px #021b0c;
+  }
+  
+  .message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+  }
+  
+  footer p {
+    color: #b3aeb5;
+    font-size: 12px;
+  }
